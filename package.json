@@ -1,0 +1,34 @@
+{
+  "name": "openai-lab",
+  "version": "1.0.0",
+  "description": "Learning lab for OpenAI API concepts in a logistics domain.",
+  "scripts": {
+    "basic": "tsx src/01-basic-response.ts",
+    "classic-rag": "tsx src/05-classic-rag.ts",
+    "file-search": "tsx src/05-file-search.ts",
+    "streaming": "tsx src/structured/streaming.ts",
+    "custom-tools": "tsx src/functions/custom-tools.ts",
+    "lark-cfg-custom-tool": "tsx src/functions/lark-cfg-custom-tool.ts",
+    "lark-cfg": "tsx src/functions/lark-cfg-custom-tool.ts",
+    "regex-cfg": "tsx src/functions/regex-cfg-custom-tool.ts",
+    "tool-choice": "tsx src/functions/tool-choice.ts",
+    "tool-error-handling": "tsx src/functions/tool-error-handling.ts",
+    "streaming-full-roundtrip": "tsx src/functions/streaming-full-roundtrip.ts",
+    "web-search": "tsx src/06-web-search.ts",
+    "google-calendar": "tsx src/mcp/google-calendar.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "openai": "^6.42.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
