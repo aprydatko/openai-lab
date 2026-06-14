@@ -6,6 +6,11 @@
     "basic": "tsx src/01-basic-response.ts",
     "classic-rag": "tsx src/05-classic-rag.ts",
     "file-search": "tsx src/05-file-search.ts",
+    "agent": "tsx src/06-agent.ts",
+    "agent-with-tools": "tsx src/07-agent-with-tools.ts",
+    "multi-agent-handoff": "tsx src/08-multi-agent-handoff.ts",
+    "agent-state": "tsx src/09-agent-state.ts",
+    "agent-tracing": "tsx src/10-agent-tracing.ts",
     "streaming": "tsx src/structured/streaming.ts",
     "custom-tools": "tsx src/functions/custom-tools.ts",
     "lark-cfg-custom-tool": "tsx src/functions/lark-cfg-custom-tool.ts",
@@ -18,13 +23,17 @@
     "google-calendar": "tsx src/mcp/google-calendar.ts",
     "skills": "tsx src/11-skills.ts",
     "inline-skills": "tsx src/12-inline-skills.ts",
-    "computer-use": "tsx src/13-computer-use.ts"
+    "computer-use": "tsx src/13-computer-use.ts",
+    "guardrail": "tsx src/agent/guardrail.ts",
+    "sensitive-action": "tsx src/agent/sensitive-action.ts",
+    "orchestration": "tsx src/agent/orchestration.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@openai/agents": "^0.11.6",
     "dotenv": "^17.4.2",
     "openai": "^6.42.0",
     "zod": "^4.4.3"
