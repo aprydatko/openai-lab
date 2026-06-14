@@ -16,7 +16,8 @@
     "streaming-full-roundtrip": "tsx src/functions/streaming-full-roundtrip.ts",
     "web-search": "tsx src/06-web-search.ts",
     "google-calendar": "tsx src/mcp/google-calendar.ts",
-    "skills": "tsx src/11-skills.ts"
+    "skills": "tsx src/11-skills.ts",
+    "inline-skills": "tsx src/12-inline-skills.ts"
   },
   "keywords": [],
   "author": "",
