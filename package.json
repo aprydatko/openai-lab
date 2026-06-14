@@ -17,7 +17,8 @@
     "web-search": "tsx src/06-web-search.ts",
     "google-calendar": "tsx src/mcp/google-calendar.ts",
     "skills": "tsx src/11-skills.ts",
-    "inline-skills": "tsx src/12-inline-skills.ts"
+    "inline-skills": "tsx src/12-inline-skills.ts",
+    "computer-use": "tsx src/13-computer-use.ts"
   },
   "keywords": [],
   "author": "",
